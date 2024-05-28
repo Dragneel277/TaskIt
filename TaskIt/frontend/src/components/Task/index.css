@@ -1,0 +1,72 @@
+.data_element {
+    display: flex;
+    font-size: 1em;
+    padding: 1em;
+    margin: 0.4em 1em;
+    transition: 0.2s;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.222);
+
+
+}
+
+
+
+
+.hideInput {
+    outline: none;
+    border: 0px;
+}
+
+.showInput {
+    border: 1px solid;
+}
+
+
+
+.hideButton {
+    visibility: hidden;
+}
+
+.text-strike input[type=text] {
+    text-decoration: line-through;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background: none;
+
+
+}
+
+.btn:hover {
+    color: blue;
+}
+
+.closeBtns {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    padding: auto;
+}
+
+.task-complete {
+    opacity: 0.5;
+}
+
+input#description {
+    width: 100%;
+}
+
+input#check-box {
+    width: 4rem;
+
+}
+
+.box {
+    float: left;
+    width: 2em;
+    padding: 0.2rem;
+    border-radius: 0.25rem;
+}
